@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Area {
+    public static void (String[] args){
+        double base, altura, area, radio;
+        final double PI = 3.4314159265;
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Introduzca la base: ");
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Introduzca la altura: ");
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Introduzca la radio: ");
+        base = teclado.nextDouble();
+        altura = teclado.nextDouble();
+        radio = teclado.nextDouble();
+        area triangulo = base * altura / 2;
+        area circulo = (PI * radio)^2;
+        System.out.print(" numero introducido");
+        System.out.println("Base de triangulo = " +triangulo);
+        System.out.println("Base de circulo = " +circulo)
+
+
+    }
+
+}
